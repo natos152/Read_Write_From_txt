@@ -239,6 +239,7 @@ namespace Read_Write_From_txt
             this.inputDel.Name = "inputDel";
             this.inputDel.Size = new System.Drawing.Size(116, 28);
             this.inputDel.TabIndex = 20;
+            this.inputDel.TextChanged += new System.EventHandler(this.inputDel_TextChanged);
             // 
             // upd_btn
             // 
