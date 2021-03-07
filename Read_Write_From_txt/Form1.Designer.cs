@@ -58,9 +58,10 @@ namespace Read_Write_From_txt
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label1.Location = new System.Drawing.Point(29, 68);
+            this.label1.Location = new System.Drawing.Point(22, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 29);
+            this.label1.Size = new System.Drawing.Size(136, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Team Name :";
             // 
@@ -68,9 +69,10 @@ namespace Read_Write_From_txt
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label2.Location = new System.Drawing.Point(29, 110);
+            this.label2.Location = new System.Drawing.Point(22, 89);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 29);
+            this.label2.Size = new System.Drawing.Size(68, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Wins :";
             // 
@@ -78,9 +80,10 @@ namespace Read_Write_From_txt
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label3.Location = new System.Drawing.Point(29, 153);
+            this.label3.Location = new System.Drawing.Point(22, 124);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 29);
+            this.label3.Size = new System.Drawing.Size(77, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Loses :";
             // 
@@ -88,28 +91,29 @@ namespace Read_Write_From_txt
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label4.Location = new System.Drawing.Point(29, 205);
+            this.label4.Location = new System.Drawing.Point(22, 167);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 29);
+            this.label4.Size = new System.Drawing.Size(69, 24);
             this.label4.TabIndex = 3;
             this.label4.Text = "Draw :";
             // 
             // input_name
             // 
             this.input_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.input_name.Location = new System.Drawing.Point(213, 65);
-            this.input_name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.input_name.Location = new System.Drawing.Point(160, 53);
+            this.input_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.input_name.Name = "input_name";
-            this.input_name.Size = new System.Drawing.Size(196, 34);
+            this.input_name.Size = new System.Drawing.Size(174, 28);
             this.input_name.TabIndex = 4;
             // 
             // add_team
             // 
             this.add_team.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.add_team.Location = new System.Drawing.Point(268, 258);
-            this.add_team.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.add_team.Location = new System.Drawing.Point(201, 210);
+            this.add_team.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.add_team.Name = "add_team";
-            this.add_team.Size = new System.Drawing.Size(196, 34);
+            this.add_team.Size = new System.Drawing.Size(147, 28);
             this.add_team.TabIndex = 8;
             this.add_team.Text = "Add to txt file";
             this.add_team.UseVisualStyleBackColor = true;
@@ -119,27 +123,28 @@ namespace Read_Write_From_txt
             // 
             this.print_txt.AutoSize = true;
             this.print_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.print_txt.Location = new System.Drawing.Point(631, 75);
+            this.print_txt.Location = new System.Drawing.Point(473, 61);
+            this.print_txt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.print_txt.Name = "print_txt";
-            this.print_txt.Size = new System.Drawing.Size(0, 25);
+            this.print_txt.Size = new System.Drawing.Size(0, 20);
             this.print_txt.TabIndex = 9;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(947, 11);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimePicker1.Location = new System.Drawing.Point(710, 9);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(349, 34);
+            this.dateTimePicker1.Size = new System.Drawing.Size(263, 28);
             this.dateTimePicker1.TabIndex = 10;
             // 
             // read_txt
             // 
             this.read_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.read_txt.Location = new System.Drawing.Point(30, 258);
-            this.read_txt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.read_txt.Location = new System.Drawing.Point(22, 210);
+            this.read_txt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.read_txt.Name = "read_txt";
-            this.read_txt.Size = new System.Drawing.Size(219, 34);
+            this.read_txt.Size = new System.Drawing.Size(164, 28);
             this.read_txt.TabIndex = 11;
             this.read_txt.Text = "Read from txt file";
             this.read_txt.UseVisualStyleBackColor = true;
@@ -149,19 +154,20 @@ namespace Read_Write_From_txt
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label5.Location = new System.Drawing.Point(29, 9);
+            this.label5.Location = new System.Drawing.Point(22, 7);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(448, 38);
+            this.label5.Size = new System.Drawing.Size(375, 31);
             this.label5.TabIndex = 12;
             this.label5.Text = "Read and Write by Text File";
             // 
             // show_from2
             // 
             this.show_from2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.show_from2.Location = new System.Drawing.Point(654, 7);
-            this.show_from2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.show_from2.Location = new System.Drawing.Point(490, 6);
+            this.show_from2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.show_from2.Name = "show_from2";
-            this.show_from2.Size = new System.Drawing.Size(287, 40);
+            this.show_from2.Size = new System.Drawing.Size(215, 32);
             this.show_from2.TabIndex = 13;
             this.show_from2.Text = "Show file text content";
             this.show_from2.UseVisualStyleBackColor = false;
@@ -170,37 +176,36 @@ namespace Read_Write_From_txt
             // input_win
             // 
             this.input_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.input_win.Location = new System.Drawing.Point(213, 114);
-            this.input_win.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.input_win.Location = new System.Drawing.Point(160, 93);
+            this.input_win.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.input_win.Name = "input_win";
-            this.input_win.Size = new System.Drawing.Size(162, 30);
+            this.input_win.Size = new System.Drawing.Size(122, 26);
             this.input_win.TabIndex = 14;
             // 
             // input_lose
             // 
             this.input_lose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.input_lose.Location = new System.Drawing.Point(216, 159);
-            this.input_lose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.input_lose.Location = new System.Drawing.Point(162, 129);
+            this.input_lose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.input_lose.Name = "input_lose";
-            this.input_lose.Size = new System.Drawing.Size(159, 30);
+            this.input_lose.Size = new System.Drawing.Size(119, 26);
             this.input_lose.TabIndex = 15;
             // 
             // input_draw
             // 
             this.input_draw.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.input_draw.Location = new System.Drawing.Point(216, 206);
-            this.input_draw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.input_draw.Location = new System.Drawing.Point(162, 167);
+            this.input_draw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.input_draw.Name = "input_draw";
-            this.input_draw.Size = new System.Drawing.Size(159, 30);
+            this.input_draw.Size = new System.Drawing.Size(119, 26);
             this.input_draw.TabIndex = 16;
             // 
             // open_file
             // 
             this.open_file.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.open_file.Location = new System.Drawing.Point(30, 317);
-            this.open_file.Margin = new System.Windows.Forms.Padding(4);
+            this.open_file.Location = new System.Drawing.Point(22, 258);
             this.open_file.Name = "open_file";
-            this.open_file.Size = new System.Drawing.Size(219, 34);
+            this.open_file.Size = new System.Drawing.Size(164, 28);
             this.open_file.TabIndex = 17;
             this.open_file.Text = "Open File text";
             this.open_file.UseVisualStyleBackColor = true;
@@ -209,10 +214,9 @@ namespace Read_Write_From_txt
             // del_team
             // 
             this.del_team.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.del_team.Location = new System.Drawing.Point(571, 371);
-            this.del_team.Margin = new System.Windows.Forms.Padding(4);
+            this.del_team.Location = new System.Drawing.Point(428, 301);
             this.del_team.Name = "del_team";
-            this.del_team.Size = new System.Drawing.Size(157, 33);
+            this.del_team.Size = new System.Drawing.Size(118, 27);
             this.del_team.TabIndex = 18;
             this.del_team.Text = "delete";
             this.del_team.UseVisualStyleBackColor = true;
@@ -222,29 +226,26 @@ namespace Read_Write_From_txt
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(29, 373);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(22, 303);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(338, 29);
+            this.label6.Size = new System.Drawing.Size(272, 24);
             this.label6.TabIndex = 19;
             this.label6.Text = "Write the name of the team: ";
             // 
             // inputDel
             // 
             this.inputDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.inputDel.Location = new System.Drawing.Point(399, 370);
-            this.inputDel.Margin = new System.Windows.Forms.Padding(4);
+            this.inputDel.Location = new System.Drawing.Point(299, 301);
             this.inputDel.Name = "inputDel";
-            this.inputDel.Size = new System.Drawing.Size(153, 34);
+            this.inputDel.Size = new System.Drawing.Size(116, 28);
             this.inputDel.TabIndex = 20;
             // 
             // upd_btn
             // 
             this.upd_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.upd_btn.Location = new System.Drawing.Point(418, 423);
-            this.upd_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.upd_btn.Location = new System.Drawing.Point(314, 344);
             this.upd_btn.Name = "upd_btn";
-            this.upd_btn.Size = new System.Drawing.Size(225, 37);
+            this.upd_btn.Size = new System.Drawing.Size(169, 30);
             this.upd_btn.TabIndex = 21;
             this.upd_btn.Text = "Update Window";
             this.upd_btn.UseVisualStyleBackColor = true;
@@ -254,18 +255,17 @@ namespace Read_Write_From_txt
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(29, 431);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(22, 350);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(356, 29);
+            this.label7.Size = new System.Drawing.Size(285, 24);
             this.label7.TabIndex = 22;
             this.label7.Text = "To update team click here -->";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1332, 578);
+            this.ClientSize = new System.Drawing.Size(999, 470);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.upd_btn);
             this.Controls.Add(this.inputDel);
@@ -286,7 +286,7 @@ namespace Read_Write_From_txt
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Read And Write Program";
             ((System.ComponentModel.ISupportInitialize)(this.input_win)).EndInit();
