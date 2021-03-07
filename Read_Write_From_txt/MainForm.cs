@@ -9,14 +9,13 @@ using System.Windows.Forms;
 
 namespace Read_Write_From_txt
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         string path = @"../../file1.txt";
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
-
         private void add_team_Click(object sender, EventArgs e)
         {
             string name = input_name.Text;
@@ -49,7 +48,7 @@ namespace Read_Write_From_txt
 
         private void show_from2_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            TeamsWindow form2 = new TeamsWindow();
             form2.Show();
         }
 

@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Read_Write_From_txt
 {
-    public partial class Form2 : Form
+    public partial class TeamsWindow : Form
     {
         string path = @"../../file1.txt";
 
-        public Form2()
+        public TeamsWindow()
         {
             InitializeComponent();
         }

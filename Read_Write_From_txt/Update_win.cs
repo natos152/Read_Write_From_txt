@@ -15,7 +15,7 @@ namespace Read_Write_From_txt
     public partial class Update_win : Form
     {
         string path = @"../../file1.txt";
-        Form1 main_window = new Form1();
+        MainForm main_window = new MainForm();
 
         public Update_win()
         {
@@ -36,11 +36,21 @@ namespace Read_Write_From_txt
             decimal draw = input_draw.Value;
             decimal points = wins * 3 + draw;
             bool flag = false;
+            bool checkName = false;
             string oldLine;
             string newStr = "";
             StreamReader sr = File.OpenText(path);
             while ((oldLine = sr.ReadLine()) != null)
             {
+                if (updateTeam.Text == "")
+                {
+                    MessageBox.Show("Please cheack your team name", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                if (oldLine.Contains(updateTeam.Text))
+                {
+                    checkName = true;
+                }
                 if (!oldLine.Contains(updateTeam.Text))
                 {
                     newStr += oldLine + Environment.NewLine;
@@ -70,12 +80,13 @@ namespace Read_Write_From_txt
             }
             sr.Close();
             File.WriteAllText(path, newStr);
+            if (checkName == false) MessageBox.Show("Team is not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             if (flag == false)
             {
                 MessageBox.Show("The team is not updated", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            MessageBox.Show("The team is updated", "succses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("The team is updated", "success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void main_btn_Click(object sender, EventArgs e)

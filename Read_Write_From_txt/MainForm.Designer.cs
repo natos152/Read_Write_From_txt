@@ -1,7 +1,7 @@
 ﻿
 namespace Read_Write_From_txt
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
