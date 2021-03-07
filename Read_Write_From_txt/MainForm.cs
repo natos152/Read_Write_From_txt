@@ -94,5 +94,10 @@ namespace Read_Write_From_txt
             update_window.Show();
 
         }
+
+        private void inputDel_TextChanged(object sender, EventArgs e)
+        {
+            // no
+        }
     }
 }
